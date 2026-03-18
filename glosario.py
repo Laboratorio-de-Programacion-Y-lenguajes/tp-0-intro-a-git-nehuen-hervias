@@ -50,5 +50,3 @@ if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
     agregar_definicion_Middleware()
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
