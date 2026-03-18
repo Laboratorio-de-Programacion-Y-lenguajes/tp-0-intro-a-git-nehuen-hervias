@@ -37,18 +37,18 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def agregar_definicion_mvt():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "MVT"  # Reemplazar con el término asignado o elegido
+    definicion = "MVT es un modelo que divide una aplicación en tres partes: datos (Model), lógica (View) y presentación (Template)."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-
+    agregar_definicion_mvt()
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
