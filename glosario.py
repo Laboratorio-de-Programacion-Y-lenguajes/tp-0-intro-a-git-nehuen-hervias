@@ -37,18 +37,18 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_mvt():
+def agregar_definicion_Middleware():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "MVT"  # Reemplazar con el término asignado o elegido
-    definicion = "MVT es un modelo que divide una aplicación en tres partes: datos (Model), lógica (View) y presentación (Template)."
+    termino = "Middleware"  # Reemplazar con el término asignado o elegido
+    definicion = "Middleware es un software que actúa como intermediario entre diferentes aplicaciones o sistemas."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-    agregar_definicion_mvt()
+    agregar_definicion_Middleware()
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
